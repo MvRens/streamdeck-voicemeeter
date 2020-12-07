@@ -50,6 +50,26 @@
     },
     {
       "Icon": "Images/icon",
+      "Name": "VoiceMeeter Multi-state Press/Long-Press",
+      "States": [
+        {
+          "Image": "Images/vmTop",
+          "TitleAlignment": "bottom",
+          "FontSize": "11"
+        },
+        {
+          "Image": "Images/vmTop",
+          "TitleAlignment": "bottom",
+          "FontSize": "11"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "VoiceMeeter Multi-state Press/Long-Press - Directly access any setting through text. Supports both Press and Long-Press (allows you to change between two preset list of settings). The state depends on the value of the State Value.",
+      "UUID": "com.barraider.vmmultistate",
+      "PropertyInspectorPath": "PropertyInspector/VoiceMeeter/MultiStateKeypress.html"
+    },
+    {
+      "Icon": "Images/icon",
       "Name": "Advanced Toggle",
       "States": [
         {
